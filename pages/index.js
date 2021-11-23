@@ -45,7 +45,7 @@ function HomePage() {
         onClick={() => {
           let name = prompt("What's your name?");
           if (name) {
-            alert('Nice to meet you, ' + name + '!');
+            alert('Hello, ' + name + '!');
           } else {
             alert('do you like cars?');
           }
